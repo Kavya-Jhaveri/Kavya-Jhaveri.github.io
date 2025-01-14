@@ -17,7 +17,7 @@ export default function SignInScreen({ navigation }) {
   };
 
   return (
-    <View style={styles.container}>
+    <View style={styles.container} content="width=device-width, initial-scale=1">
       <Text style={styles.title}>Sign In</Text>
       <TextInput
         style={styles.input}
