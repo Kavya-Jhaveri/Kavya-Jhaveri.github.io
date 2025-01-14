@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://Kavya-Jhaveri.github.io/Kavya-Jhaveri.github.io",
+  "homepage": "https://Kavya-Jhaveri.github.io/",
   "dependencies": {
     "@react-navigation/native": "^7.0.14",
     "@react-navigation/native-stack": "^7.2.0",
