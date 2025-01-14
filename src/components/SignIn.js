@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import { View, Text, TextInput, Button, StyleSheet } from "react-native";
 import { auth } from '../firebase/firebaseConfig';
 import { signInWithEmailAndPassword } from "firebase/auth";
+import { Dimensions } from "react-native";
+
+const { width } = Dimensions.get("window");
 
 export default function SignInScreen({ navigation }) {
   const [email, setEmail] = useState("");
@@ -46,7 +49,7 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   input: {
-    width: "80%",
+    width: width * 0.8,
     borderWidth: 1,
     borderColor: "#ccc",
     borderRadius: 5,
