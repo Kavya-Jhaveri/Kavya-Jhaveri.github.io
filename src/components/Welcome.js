@@ -1,5 +1,8 @@
 import React from "react";
 import { View, Text, Button, StyleSheet } from "react-native";
+import { Dimensions } from "react-native";
+
+const { width } = Dimensions.get("window");
 
 export default function WelcomeScreen({ navigation }) {
   return (
@@ -16,6 +19,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
+    width: width * 0.8,
   },
   title: {
     fontSize: 24,
